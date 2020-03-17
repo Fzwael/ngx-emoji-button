@@ -10,7 +10,7 @@ describe('NgxEmojiButtonComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ NgxEmojiButtonComponent ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
