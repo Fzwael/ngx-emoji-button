@@ -5,4 +5,12 @@ import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.sass']
 })
-export class AppComponent {}
+export class AppComponent {
+
+  selectedEmoji = "";
+
+  handleEmojiPicked(emoji: any){
+    this.selectedEmoji = emoji;
+    console.log('Selected emoji ' , emoji);
+  }
+}

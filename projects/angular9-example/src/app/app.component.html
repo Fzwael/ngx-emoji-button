@@ -1,1 +1,10 @@
-<ngx-emoji-button-test></ngx-emoji-button-test>
+<ngx-emoji-button-test
+ [categories] = "['smileys', 'animals', 'objects', 'people']"
+ [style] = "'native'"
+ (emojiPicked) = "handleEmojiPicked($event)"
+>
+</ngx-emoji-button-test>
+
+<h3> Selected emoji : </h3>
+
+<div [innerHTML]="selectedEmoji"></div>
