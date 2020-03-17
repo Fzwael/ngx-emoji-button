@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-ngx-emoji-button',
+  selector: 'ngx-emoji-button',
   template: `
     <p>
-      ngx-emoji-button works!
+      ngx-emoji-button works v2!
     </p>
   `,
   styles: []
