@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-emoji-button": [
+        "dist/ngx-emoji-button/ngx-emoji-button",
+        "dist/ngx-emoji-button"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
