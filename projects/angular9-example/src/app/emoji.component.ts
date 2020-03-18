@@ -4,7 +4,7 @@ import * as EmojiButton from '@joeattardi/emoji-button';
 @Component({
   selector: 'ngx-emoji-button-test',
   template: `
-    <button type="button" #emoji>EMOJI</button>
+    <button class="emoji-button" type="button" #emoji>😄</button>
   `,
   styles: []
 })
@@ -70,7 +70,6 @@ export class EmojiComponent implements AfterViewInit {
 
     // Adding the callback function when an emoji is selected
     picker.on('emoji', (emoji) => {
-      console.log('fzwael debug >> ', emoji);
       this.emojiPicked.emit(emoji);
     });
 

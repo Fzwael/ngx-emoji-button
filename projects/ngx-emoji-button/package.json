@@ -1,12 +1,10 @@
 {
   "name": "ngx-emoji-button",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": "^9.0.6",
     "@angular/core": "^9.0.6",
-    "tslib": "^1.10.0"
-  },
-  "dependencies": {
+    "tslib": "^1.10.0",
     "@joeattardi/emoji-button": "^2.12.1"
   }
 }
