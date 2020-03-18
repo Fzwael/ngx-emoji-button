@@ -4,7 +4,11 @@ An Angular wrapper for [emoji-button](https://emoji-button.js.org)
 
 ## Installation
 
-You can install to your angular project using this command : `` npm install ngx-emoji-button ``
+You can install to your angular project using this command : 
+``` 
+npm install @joeattardi/emoji-button
+npm install ngx-emoji-button 
+```
 
 ## Basic usage
 
